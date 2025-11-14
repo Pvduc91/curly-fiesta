@@ -4,7 +4,7 @@ on: push
 
 jobs:
   check_cpu:
-    runs-on: depot-ubuntu-24.04-32
+    runs-on: Duc
     strategy:
       matrix:
         instance: [1, 2, 3, 4, 5, 6, 7, 8, 9]
